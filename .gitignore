@@ -1,0 +1,18 @@
+# Exclude environment files in api
+api/.env
+
+# Exclude node_modules in api
+api/node_modules/
+
+# Exclude log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Exclude OS-specific and editor-specific files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
